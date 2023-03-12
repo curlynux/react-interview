@@ -17,7 +17,7 @@ function OneMovie({id, title, category, likes, dislikes}) {
     </div>
   )
 }
-
+ 
 // function to like a movie
 function LikeMovie({id, movies, setMovies}) {
   movies[id].likes++;
